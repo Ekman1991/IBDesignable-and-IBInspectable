@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A566B7FF1C5E6D0000929815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566B7FE1C5E6D0000929815 /* AppDelegate.swift */; };
+		A566B8011C5E6D0000929815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566B8001C5E6D0000929815 /* ViewController.swift */; };
+		A566B8041C5E6D0000929815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A566B8021C5E6D0000929815 /* Main.storyboard */; };
+		A566B8071C5E6D0000929815 /* Kudo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A566B8051C5E6D0000929815 /* Kudo.xcdatamodeld */; };
+		A566B8091C5E6D0000929815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A566B8081C5E6D0000929815 /* Assets.xcassets */; };
+		A566B80C1C5E6D0000929815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A566B80A1C5E6D0000929815 /* LaunchScreen.storyboard */; };
+		A566B8171C5E6D0000929815 /* KudoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566B8161C5E6D0000929815 /* KudoTests.swift */; };
+		A566B8221C5E6D0000929815 /* KudoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566B8211C5E6D0000929815 /* KudoUITests.swift */; };
+		A566B8341C5E6EEB00929815 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A566B8331C5E6EEB00929815 /* TestView.xib */; };
+		A566B8361C5E6F3400929815 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A566B8351C5E6F3400929815 /* TestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A566B8131C5E6D0000929815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A566B7F31C5E6D0000929815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A566B7FA1C5E6D0000929815;
+			remoteInfo = Kudo;
+		};
+		A566B81E1C5E6D0000929815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A566B7F31C5E6D0000929815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A566B7FA1C5E6D0000929815;
+			remoteInfo = Kudo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A566B7FB1C5E6D0000929815 /* Kudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A566B7FE1C5E6D0000929815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A566B8001C5E6D0000929815 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A566B8031C5E6D0000929815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A566B8061C5E6D0000929815 /* Kudo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kudo.xcdatamodel; sourceTree = "<group>"; };
+		A566B8081C5E6D0000929815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A566B80B1C5E6D0000929815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A566B80D1C5E6D0000929815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A566B8121C5E6D0000929815 /* KudoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KudoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A566B8161C5E6D0000929815 /* KudoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudoTests.swift; sourceTree = "<group>"; };
+		A566B8181C5E6D0000929815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A566B81D1C5E6D0000929815 /* KudoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KudoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A566B8211C5E6D0000929815 /* KudoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KudoUITests.swift; sourceTree = "<group>"; };
+		A566B8231C5E6D0000929815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A566B8331C5E6EEB00929815 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		A566B8351C5E6F3400929815 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A566B7F81C5E6D0000929815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A566B80F1C5E6D0000929815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A566B81A1C5E6D0000929815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A566B7F21C5E6D0000929815 = {
+			isa = PBXGroup;
+			children = (
+				A566B7FD1C5E6D0000929815 /* Kudo */,
+				A566B8151C5E6D0000929815 /* KudoTests */,
+				A566B8201C5E6D0000929815 /* KudoUITests */,
+				A566B7FC1C5E6D0000929815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A566B7FC1C5E6D0000929815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A566B7FB1C5E6D0000929815 /* Kudo.app */,
+				A566B8121C5E6D0000929815 /* KudoTests.xctest */,
+				A566B81D1C5E6D0000929815 /* KudoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A566B7FD1C5E6D0000929815 /* Kudo */ = {
+			isa = PBXGroup;
+			children = (
+				A566B7FE1C5E6D0000929815 /* AppDelegate.swift */,
+				A566B8001C5E6D0000929815 /* ViewController.swift */,
+				A566B8021C5E6D0000929815 /* Main.storyboard */,
+				A566B8081C5E6D0000929815 /* Assets.xcassets */,
+				A566B80A1C5E6D0000929815 /* LaunchScreen.storyboard */,
+				A566B80D1C5E6D0000929815 /* Info.plist */,
+				A566B8051C5E6D0000929815 /* Kudo.xcdatamodeld */,
+				A566B8331C5E6EEB00929815 /* TestView.xib */,
+				A566B8351C5E6F3400929815 /* TestView.swift */,
+			);
+			path = Kudo;
+			sourceTree = "<group>";
+		};
+		A566B8151C5E6D0000929815 /* KudoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A566B8161C5E6D0000929815 /* KudoTests.swift */,
+				A566B8181C5E6D0000929815 /* Info.plist */,
+			);
+			path = KudoTests;
+			sourceTree = "<group>";
+		};
+		A566B8201C5E6D0000929815 /* KudoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A566B8211C5E6D0000929815 /* KudoUITests.swift */,
+				A566B8231C5E6D0000929815 /* Info.plist */,
+			);
+			path = KudoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A566B7FA1C5E6D0000929815 /* Kudo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A566B8261C5E6D0000929815 /* Build configuration list for PBXNativeTarget "Kudo" */;
+			buildPhases = (
+				A566B7F71C5E6D0000929815 /* Sources */,
+				A566B7F81C5E6D0000929815 /* Frameworks */,
+				A566B7F91C5E6D0000929815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kudo;
+			productName = Kudo;
+			productReference = A566B7FB1C5E6D0000929815 /* Kudo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A566B8111C5E6D0000929815 /* KudoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A566B8291C5E6D0000929815 /* Build configuration list for PBXNativeTarget "KudoTests" */;
+			buildPhases = (
+				A566B80E1C5E6D0000929815 /* Sources */,
+				A566B80F1C5E6D0000929815 /* Frameworks */,
+				A566B8101C5E6D0000929815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A566B8141C5E6D0000929815 /* PBXTargetDependency */,
+			);
+			name = KudoTests;
+			productName = KudoTests;
+			productReference = A566B8121C5E6D0000929815 /* KudoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A566B81C1C5E6D0000929815 /* KudoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A566B82C1C5E6D0000929815 /* Build configuration list for PBXNativeTarget "KudoUITests" */;
+			buildPhases = (
+				A566B8191C5E6D0000929815 /* Sources */,
+				A566B81A1C5E6D0000929815 /* Frameworks */,
+				A566B81B1C5E6D0000929815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A566B81F1C5E6D0000929815 /* PBXTargetDependency */,
+			);
+			name = KudoUITests;
+			productName = KudoUITests;
+			productReference = A566B81D1C5E6D0000929815 /* KudoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A566B7F31C5E6D0000929815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Philip Ekman";
+				TargetAttributes = {
+					A566B7FA1C5E6D0000929815 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A566B8111C5E6D0000929815 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A566B7FA1C5E6D0000929815;
+					};
+					A566B81C1C5E6D0000929815 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A566B7FA1C5E6D0000929815;
+					};
+				};
+			};
+			buildConfigurationList = A566B7F61C5E6D0000929815 /* Build configuration list for PBXProject "Kudo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A566B7F21C5E6D0000929815;
+			productRefGroup = A566B7FC1C5E6D0000929815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A566B7FA1C5E6D0000929815 /* Kudo */,
+				A566B8111C5E6D0000929815 /* KudoTests */,
+				A566B81C1C5E6D0000929815 /* KudoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A566B7F91C5E6D0000929815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A566B8341C5E6EEB00929815 /* TestView.xib in Resources */,
+				A566B80C1C5E6D0000929815 /* LaunchScreen.storyboard in Resources */,
+				A566B8091C5E6D0000929815 /* Assets.xcassets in Resources */,
+				A566B8041C5E6D0000929815 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A566B8101C5E6D0000929815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A566B81B1C5E6D0000929815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A566B7F71C5E6D0000929815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A566B8361C5E6F3400929815 /* TestView.swift in Sources */,
+				A566B8011C5E6D0000929815 /* ViewController.swift in Sources */,
+				A566B7FF1C5E6D0000929815 /* AppDelegate.swift in Sources */,
+				A566B8071C5E6D0000929815 /* Kudo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A566B80E1C5E6D0000929815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A566B8171C5E6D0000929815 /* KudoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A566B8191C5E6D0000929815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A566B8221C5E6D0000929815 /* KudoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A566B8141C5E6D0000929815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A566B7FA1C5E6D0000929815 /* Kudo */;
+			targetProxy = A566B8131C5E6D0000929815 /* PBXContainerItemProxy */;
+		};
+		A566B81F1C5E6D0000929815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A566B7FA1C5E6D0000929815 /* Kudo */;
+			targetProxy = A566B81E1C5E6D0000929815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A566B8021C5E6D0000929815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A566B8031C5E6D0000929815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A566B80A1C5E6D0000929815 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A566B80B1C5E6D0000929815 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A566B8241C5E6D0000929815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A566B8251C5E6D0000929815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A566B8271C5E6D0000929815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kudo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.philipekman.Kudo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A566B8281C5E6D0000929815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kudo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.philipekman.Kudo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A566B82A1C5E6D0000929815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KudoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.philipekman.KudoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kudo.app/Kudo";
+			};
+			name = Debug;
+		};
+		A566B82B1C5E6D0000929815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KudoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.philipekman.KudoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kudo.app/Kudo";
+			};
+			name = Release;
+		};
+		A566B82D1C5E6D0000929815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KudoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.philipekman.KudoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kudo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A566B82E1C5E6D0000929815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KudoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.philipekman.KudoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kudo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A566B7F61C5E6D0000929815 /* Build configuration list for PBXProject "Kudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A566B8241C5E6D0000929815 /* Debug */,
+				A566B8251C5E6D0000929815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A566B8261C5E6D0000929815 /* Build configuration list for PBXNativeTarget "Kudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A566B8271C5E6D0000929815 /* Debug */,
+				A566B8281C5E6D0000929815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A566B8291C5E6D0000929815 /* Build configuration list for PBXNativeTarget "KudoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A566B82A1C5E6D0000929815 /* Debug */,
+				A566B82B1C5E6D0000929815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A566B82C1C5E6D0000929815 /* Build configuration list for PBXNativeTarget "KudoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A566B82D1C5E6D0000929815 /* Debug */,
+				A566B82E1C5E6D0000929815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A566B8051C5E6D0000929815 /* Kudo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A566B8061C5E6D0000929815 /* Kudo.xcdatamodel */,
+			);
+			currentVersion = A566B8061C5E6D0000929815 /* Kudo.xcdatamodel */;
+			path = Kudo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A566B7F31C5E6D0000929815 /* Project object */;
+}
